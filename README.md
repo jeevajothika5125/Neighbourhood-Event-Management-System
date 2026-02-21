@@ -114,4 +114,4 @@ The system follows a **layered architecture** for scalability and maintainabilit
 ### Frontend Setup (React)
 ```bash
 npm install
-npm start
+npm start 
