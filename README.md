@@ -1,133 +1,106 @@
 # 🏘️ Neighbourhood Event Management System
 
 ## 📌 Project Overview
-The **Neighbourhood Event Management System** is a full-stack web application developed to simplify the organization and management of community events. The system provides a centralized digital platform where residents and organizers can efficiently create, manage, and participate in neighbourhood events.
+The **Neighbourhood Event Management System** is a full-stack web application designed to streamline the organization and management of community events. It provides a centralized platform where residents and organizers can efficiently create, manage, and participate in neighborhood activities.
 
-In many communities, event information is often shared through scattered mediums such as WhatsApp groups, posters, or word of mouth, leading to communication gaps and reduced participation. This application eliminates these challenges by offering a unified platform for event coordination and interaction.
+Traditional event coordination often relies on scattered channels like WhatsApp, posters, or word-of-mouth, leading to communication gaps and low participation. This system unifies event management, communication, and participation tracking in one platform.
 
 ---
 
 ## 🎯 Objectives
-- Provide a centralized platform for neighbourhood event management
-- Improve communication among community members
-- Enable easy creation and management of events
-- Increase participation in local activities
-- Ensure secure and controlled access using role-based permissions
+- Centralize neighborhood event management  
+- Enhance communication among community members  
+- Simplify event creation, updates, and deletion  
+- Increase community participation  
+- Implement secure role-based access control  
 
 ---
 
 ## 🔐 Role-Based Access Control (RBAC)
-The system follows a **Role-Based Access Control (RBAC)** model to ensure secure and controlled system usage.
-
-Each user is assigned specific permissions based on their role:
+The system implements **RBAC** to manage permissions efficiently.
 
 ### 👨‍💼 Admin
-- Manage all events
-- Monitor users and activities
-- Approve or remove event details
-- Maintain overall system control
+- Manage all events and participants  
+- Monitor user activity  
+- Approve, update, or remove events  
+- Maintain overall system integrity  
 
 ### 📅 Organizer
-- Create new events
-- Update event details
-- Delete or manage events
-- View participant information
+- Create, update, and delete events  
+- View participant registrations  
+- Manage event lifecycle  
 
 ### 👥 Participant
-- View available events
-- Register for events
-- Access event information and updates
-
-✅ Ensures data security, controlled access, and efficient event management.
+- Browse available events  
+- Register for events  
+- Access real-time updates  
 
 ---
 
 ## 🚀 Key Features
-- Event creation and management
-- View upcoming neighbourhood events
-- Update and delete event information
-- Participant registration
-- Role-based user access
-- Centralized event information system
-- User-friendly interface
+- Event creation, updates, and deletion  
+- View upcoming community events  
+- Participant registration and tracking  
+- Centralized event dashboard  
+- Role-based user access  
+- Responsive and user-friendly interface  
 
 ---
 
 ## 🛠️ Technology Stack
 
 ### Frontend
-- React.js
-- HTML5
-- CSS3
-- JavaScript
+- React.js  
+- HTML5, CSS3, JavaScript  
 
 ### Backend
-- Spring Boot
-- REST APIs
+- Spring Boot  
+- RESTful APIs  
 
 ### Database
-- MySQL
+- MySQL  
 
 ---
 
 ## 🏗️ Application Architecture
-
-The Neighbourhood Event Management System follows a layered architecture pattern to ensure scalability, maintainability, and separation of concerns.
+The system follows a **layered architecture** for scalability and maintainability:
 
 ### 📦 Entity Layer
-- Represents domain models and database entities
-- Defines core objects such as:
-  - Users
-  - Events
-  - Venues
-- Maps application data to database tables using ORM concepts.
-
----
+- Represents domain models and database entities  
+- Core objects: Users, Events, Venues  
+- Maps data to database tables using ORM  
 
 ### ⚙️ Service Layer
-- Contains business logic and core workflows
-- Manages event lifecycle operations such as:
-  - Event creation
-  - Validation
-  - Updates and deletion
-- Acts as an intermediary between Controller and Repository layers.
-
----
+- Contains business logic  
+- Handles event lifecycle operations  
+- Intermediary between Controllers and Repositories  
 
 ### 🌐 Controller Layer
-- Exposes RESTful API endpoints
-- Handles HTTP requests and responses
-- Processes client interactions from the frontend application
-- Routes requests to appropriate services.
-
----
+- Exposes RESTful API endpoints  
+- Handles HTTP requests and responses  
+- Routes requests to the appropriate services  
 
 ### 🗄️ Repository Layer
-- Responsible for database interaction
-- Performs CRUD operations
-- Communicates directly with the database using Spring Data JPA.
-
----
-
-✅ This layered architecture improves modularity, code reusability, and system maintainability.
+- Manages database interactions  
+- Performs CRUD operations via Spring Data JPA  
 
 ---
 
 ## 📂 Functional Modules
-- User Authentication
-- Event Management Module
-- Role Management System
-- Participant Registration
-- Event Information Dashboard
+- User Authentication  
+- Event Management  
+- Role Management System  
+- Participant Registration  
+- Event Information Dashboard  
 
 ---
 
 ## ▶️ How to Run the Project
 
 ### Backend Setup (Spring Boot)
-1. Open backend project in IDE
-2. Configure database in `application.properties`
-3. Run Spring Boot application
+1. Open the backend project in your IDE  
+2. Configure the database in `application.properties`  
+3. Run the Spring Boot application  
 
 ### Frontend Setup (React)
 ```bash
