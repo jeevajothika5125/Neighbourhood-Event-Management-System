@@ -12,7 +12,7 @@ Traditional event coordination often relies on scattered channels like WhatsApp,
 - **Name:** Jeevajothika D
 - **Department:** B.Tech, Artificial Intelligence & Data Science (AIDS)
 - **Year of Study:** Pre-Final Year Student
-- Institution: **Sri Krishna College of Engineering and Technology, Coimbatore
+- **Institution:** Sri Krishna College of Engineering and Technology, Coimbatore
 
 ---
 
