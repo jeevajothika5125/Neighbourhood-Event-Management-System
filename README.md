@@ -7,6 +7,15 @@ Traditional event coordination often relies on scattered channels like WhatsApp,
 
 ---
 
+## 👩‍💻 Developer:
+
+- **Name:** Jeevajothika D
+- **Department:** B.Tech, Artificial Intelligence & Data Science (AIDS)
+- **Year of Study:** Pre-Final Year Student
+- Institution: **Sri Krishna College of Engineering and Technology, Coimbatore
+
+---
+
 ## 🎯 Objectives
 - Centralize neighborhood event management  
 - Enhance communication among community members  
